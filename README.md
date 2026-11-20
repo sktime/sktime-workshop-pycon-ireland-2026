@@ -10,13 +10,13 @@ The materials are Jupyter notebooks in `notebooks/`. The notebook list may chang
 
 The notebooks are a practical introduction to time series machine learning with `sktime`, with a focus on agentic and LLM-assisted workflows. Topics include:
 
-- **Introduction to sktime:** the scikit-learn-style estimator interface, the core time series learning tasks, and how `sktime` fits into the wider Python time series ecosystem.
-- **Forecasting:** univariate and multivariate forecasting, reduction to regression, exogenous variables, and probabilistic and hierarchical forecasting.
-- **Advanced forecasting:** forecasting pipelines, feature engineering, tuning, AutoML-style model selection, and model evaluation.
-- **Deep learning and foundation models:** sktime deep learning estimators and pretrained foundation models for forecasting, through sktime-compatible APIs.
-- **LLM-assisted forecasting with `AutoResearchForecaster`:** an LLM proposes sktime estimator blueprints, `craft()` turns them into real estimators, and sktime evaluates and refines them in a propose → evaluate → refine loop.
-- **Extending sktime:** extension templates and the shared estimator interface: `_tags`, `_fit`, `_predict`, `get_test_params`, and testing with `check_estimator`.
-- **Building estimators with AI coding agents:** agent skills (`SKILL.md`), the skills that ship in the sktime repository, a live demo comparing agents with and without sktime skills, and the limits of agents.
+- **Introduction to forecasting with sktime:** the common `sktime` forecasting interface, from simple baselines to statistical models, reduction, pipelines and probabilistic forecasts.
+- **Deep learning for forecasting:** deep learning forecasters and pretraining in `sktime`.
+- **Foundation models for forecasting:** using pretrained time series foundation models through `sktime`, fine-tuning them, and when to use them.
+- **LLM-assisted forecasting with `AutoResearchForecaster`:** an LLM proposes sktime estimators, and sktime evaluates and refines them.
+- **Extending sktime:** writing your own estimators with extension templates.
+- **Building estimators with AI coding agents:** agent skills, the skills sktime provides, and a live demo.
+- **Benchmarking:** comparing forecasters reproducibly across datasets and evaluation folds.
 - **Next steps:** where to go from here and how to get involved with the `sktime` community.
 
 The LLM-assisted notebooks (such as the `AutoResearchForecaster` one) call an LLM through [LiteLLM](https://docs.litellm.ai/). The default model is `openai/gpt-4o-mini`, so set an OpenAI API key in your environment before you start Jupyter:
