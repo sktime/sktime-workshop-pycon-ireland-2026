@@ -167,7 +167,8 @@ Restart the notebook kernel after you change dependencies or switch environments
 ## Troubleshooting
 
 - If a package cannot be imported, check that Jupyter is using the same Python environment where you installed the dependencies.
-- Some dependencies (for example `pytorch-forecasting`, which pulls in PyTorch) are large. Set up the environment before the workshop, not on conference Wi-Fi.
+- The deep learning and foundation model dependencies (PyTorch, `transformers`, `timesfm`, `pytorch-forecasting`) are large, a few GB in total. Set up the environment before the workshop, not on conference Wi-Fi.
+- The foundation model notebooks download pretrained model weights from Hugging Face the first time they run. Run them once before the workshop so the weights are cached.
 - If the LLM calls fail with an authentication error, check that your API key is set in the same shell or environment that started Jupyter, then restart the kernel.
 - If you are on macOS with Apple Silicon and an optional dependency fails to install, set up the core workshop environment first and install optional packages only when you need them.
 - For general sktime installation notes, see the [sktime installation guide](https://www.sktime.net/en/stable/installation.html).
