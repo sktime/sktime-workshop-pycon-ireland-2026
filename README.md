@@ -17,7 +17,6 @@ The notebooks are a practical introduction to time series machine learning with 
 - **LLM-assisted forecasting with `AutoResearchForecaster`:** an LLM proposes sktime estimator blueprints, `craft()` turns them into real estimators, and sktime evaluates and refines them in a propose → evaluate → refine loop.
 - **Extending sktime:** extension templates and the shared estimator interface: `_tags`, `_fit`, `_predict`, `get_test_params`, and testing with `check_estimator`.
 - **Building estimators with AI coding agents:** agent skills (`SKILL.md`), the skills that ship in the sktime repository, a live demo comparing agents with and without sktime skills, and the limits of agents.
-- **Conversational workflows with `sktime-mcp`:** using `sktime` from an LLM client through the Model Context Protocol.
 - **Next steps:** where to go from here and how to get involved with the `sktime` community.
 
 The LLM-assisted notebooks (such as the `AutoResearchForecaster` one) call an LLM through [LiteLLM](https://docs.litellm.ai/). The default model is `openai/gpt-4o-mini`, so set an OpenAI API key in your environment before you start Jupyter:
