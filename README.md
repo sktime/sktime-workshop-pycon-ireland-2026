@@ -178,6 +178,8 @@ Restart the notebook kernel after you change dependencies or switch environments
 
 Community links are on the sktime [get involved page](https://www.sktime.net/en/stable/get_involved.html).
 
+For reference, there is also [sktime-mcp](https://github.com/sktime/sktime-mcp), an MCP (Model Context Protocol) server that lets LLM clients use sktime.
+
 ## Other sktime workshops and tutorials
 
 Similar workshop and tutorial repositories, most recent first:
