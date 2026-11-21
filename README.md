@@ -2,9 +2,9 @@
 
 This repository contains materials for a hands-on workshop on [sktime](https://www.sktime.net/), a unified Python framework for machine learning with time series, presented at [PyCon Ireland 2026](https://python.ie/) in Dublin on Saturday 21 November 2026.
 
-The materials are Jupyter notebooks in `notebooks/`. The notebook list may change over time. Start with the notebooks in `notebooks/` and follow the order suggested by the file names or by the workshop instructor.
+The materials are Jupyter notebooks in the repository root, numbered in the suggested order (`00_sktime_general_intro.ipynb` first). The notebook list may change over time. Follow the order of the file names or the one suggested by the workshop instructor.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-workshop-pycon-ireland-2026/main?urlpath=lab/tree/notebooks) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sktime/sktime-workshop-pycon-ireland-2026/) [![sktime docs](https://img.shields.io/badge/docs-sktime-blue)](https://www.sktime.net/en/stable/) [![GitHub](https://img.shields.io/badge/github-workshop-black?logo=github)](https://github.com/sktime/sktime-workshop-pycon-ireland-2026/) [![Discord](https://img.shields.io/badge/discord-chat-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/54ACzaFsn7) [![LinkedIn](https://img.shields.io/badge/linkedin-sktime-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/scikit-time/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-workshop-pycon-ireland-2026/main?urlpath=lab/tree) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sktime/sktime-workshop-pycon-ireland-2026/) [![sktime docs](https://img.shields.io/badge/docs-sktime-blue)](https://www.sktime.net/en/stable/) [![GitHub](https://img.shields.io/badge/github-workshop-black?logo=github)](https://github.com/sktime/sktime-workshop-pycon-ireland-2026/) [![Discord](https://img.shields.io/badge/discord-chat-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/54ACzaFsn7) [![LinkedIn](https://img.shields.io/badge/linkedin-sktime-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/scikit-time/)
 
 ## Workshop contents
 
@@ -115,7 +115,7 @@ uv sync --python 3.13
 uv run jupyter lab
 ```
 
-Then open the notebooks in `notebooks/`.
+Then open the notebooks in the repository root, starting with `00_sktime_general_intro.ipynb`.
 
 If you don't have `uv` yet, see the [uv installation guide](https://docs.astral.sh/uv/getting-started/installation/).
 
